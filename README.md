@@ -1,4 +1,6 @@
-# Capstone Design Project Document
+# Table Robot System for fully automating restaurant service.
+This is Capston Design project at Hanyang University ERICA.
+
 This repository has only a project description without code. The code implementation is located in the below repositories.
 - Multi-robots planning on **our main PC(our laptop)**: [https://github.com/BEYOND-thelimit/hive_main](https://github.com/BEYOND-thelimit/hive_main)
 - Vision system on **Jetson**: [https://github.com/BEYOND-thelimit/hive_vision](https://github.com/BEYOND-thelimit/hive_vision)
@@ -13,3 +15,5 @@ This repository has only a project description without code. The code implementa
 For More infromation, refers to the our [team introducement](https://github.com/BEYOND-thelimit) in the main page.
 
 ## Abstract
+Table Robot System aim at fully automating restaurant service. Utilizing ceiling-mounted cameras, the system enhances object detection and dynamic path planning algorithm, thus reducing labor costs and improving efficiency. Initial findings show significant increases in service speed and reductions in human server dependency, highlighting the system's potential to revolutionize restaurant operations.
+
