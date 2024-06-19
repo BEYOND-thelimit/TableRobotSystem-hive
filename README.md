@@ -12,7 +12,7 @@ This repository contains only the project description. The code implementation a
 *Dahyun Kim, *Geunwoo Kwon, *Jeongmok Kim, *Jiyun Yang, *Seunghak Bae, *Taehun Ryu \
 **Equal contribution (alphabet order)*
 
-For More infromation, refers to the our [team introducement](https://github.com/BEYOND-thelimit).
+For more infromation, refers to the our [team introducement](https://github.com/BEYOND-thelimit).
 
 ### Advisor :
 Prof. Wansoo Kim
