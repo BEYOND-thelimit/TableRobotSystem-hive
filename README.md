@@ -38,7 +38,7 @@ Through this process, we have developed a table robot system that focuses on the
 We designed the mechanical structure as a mobile robot, similar to a one-person table in a restaurant, so that the tables can be combined with each other. Acrylic and aluminum profiles were used for the body, and pa6-cf was used for the bearing box and shaft.
 
 A DC-CV converter was used because the motor's rated voltage to output torque to cover the desired payload was 24V, and the Raspberry PI 4b, a control board, and sensors including encoders and Lidar, were rated at 5V.
-In addition, since the robot had to handle a light and large payload, it was selected as a lithium-ion battery with a high output compared to its weight, and the capacity was configured to be more than 8,000mAh to operate for up to 6 hours.
+In addition, since the robot had to handle a light but large payload, it was selected as a lithium-ion battery with a high output compared to its weight, and the capacity was configured to be more than 8,000mAh to operate for up to 6 hours.
 
 <img width="600" alt="image" src="https://github.com/BEYOND-thelimit/TableRobotSystem-hive/assets/73813854/3f633c3a-b7cf-4f96-b05d-f7c102c1c04f">
 
