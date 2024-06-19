@@ -21,6 +21,15 @@ Prof. Wansoo Kim
 Table Robot System aim at fully automating restaurant service. Utilizing ceiling-mounted cameras, the system enhances object detection and dynamic path planning algorithm, thus reducing labor costs and improving efficiency. Initial findings show significant increases in service speed and reductions in human server dependency, highlighting the system's potential to revolutionize restaurant operations.
 
 ## Workflow
+The table robot system we propose allows a single robot to function as a table for one person, simultaneously performing serving and seating tasks. The process of our proposed system is as follows:
+
+1. Guests arriving at the restaurant select the number of people and the seating location.
+2. A robot suitable for the number of people moves to the selected location and forms a table.
+3. Once the table formation is complete, additional robots handle the serving tasks.
+4. After the guests leave, the robot that formed the table returns to its designated station.
+
+Through this process, we have developed a table robot system that focuses on the complete automation of the restaurant hall and the maximization of space utilization.
+
 <img width="600" alt="image" src="https://github.com/BEYOND-thelimit/TableRobotSystem-hive/assets/73813854/90ac9c9b-c8e1-4ed7-a822-d9aaa23c3f5d">
 
 ## Hardware
@@ -36,8 +45,8 @@ Table Robot System aim at fully automating restaurant service. Utilizing ceiling
 <img width="600" alt="image" src="https://github.com/BEYOND-thelimit/TableRobotSystem-hive/assets/73813854/7461861d-5672-464f-a7b3-67d185864e6e">
 
 ## Localization and Robot Detection
-> @Taehun Ryu: EKF localization, coordinates integration \
-> @Dahyun Kim: Robot Detection
+> @Dahyun Kim: Robot Detection \
+> @Taehun Ryu: EKF localization, coordinates integration
 
 We utilize two sources of information to estimate the position of the robot. The first source is the data measured by sensors attached to the robot, and the second source is the information obtained from a camera located externally (on the ceiling). We perform EKF localization using the LiDAR, Encoder, and IMU sensors mounted on the robot. The camera employs YOLOv8 to determine the position of the robot.
 
