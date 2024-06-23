@@ -63,6 +63,8 @@ We determine the final coordinates by performing linear interpolation using appr
 > @Geunwoo Kwon \
 > @Seunghak Bae
 
+We used the D* Lite Algorithm for path planning in dynamic environments, and to achieve smooth driving through each point, we applied Bezier interpolation for smooth navigation.
+
 <img width="600" alt="image" src="https://github.com/BEYOND-thelimit/TableRobotSystem-hive/assets/73813854/35c09973-aad1-4ce3-a345-247df3e847e4">
 
 ## System architecture
