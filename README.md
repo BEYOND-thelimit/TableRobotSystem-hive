@@ -50,7 +50,7 @@ In addition, since the robot had to handle a light but large payload, it was sel
 <img width="600" alt="image" src="https://github.com/BEYOND-thelimit/TableRobotSystem-hive/assets/73813854/7461861d-5672-464f-a7b3-67d185864e6e">
 
 ## Localization and Robot Detection
-> @Dahyun Kim
+> @Dahyun Kim \
 > @Taehun Ryu
 
 We utilize two sources of information to estimate the position of the robot. The first source is the data measured by sensors attached to the robot, and the second source is the information obtained from a camera located externally (on the ceiling). We perform EKF localization using the LiDAR, Encoder, and IMU sensors mounted on the robot. The camera employs YOLOv8 to determine the position of the robot.
