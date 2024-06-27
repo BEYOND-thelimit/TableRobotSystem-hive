@@ -1,10 +1,11 @@
 # Table Robot System for fully automating restaurant service.
-**Capston Design project at Hanyang University ERICA** \
-This repository contains only the project description. The code implementation and usage guide can be found in the following repositories:
-- **Multi-robots planning** on *our main PC(our laptop)*: [https://github.com/BEYOND-thelimit/hive_main](https://github.com/BEYOND-thelimit/hive_main)
-- **Vision system** on *Jetson Orin*: [https://github.com/BEYOND-thelimit/hive_vision](https://github.com/BEYOND-thelimit/hive_vision)
-- Each robot **controller** on *Raspberry Pi*: [https://github.com/BEYOND-thelimit/hive_robot](https://github.com/BEYOND-thelimit/hive_robot)
-- Gazebo Simulation: [https://github.com/BEYOND-thelimit/hive_simulations](https://github.com/BEYOND-thelimit/hive_simulations)
+
+### It contains only the project description
+The code implementation and usage guide can be found in the following repositories:
+- Multi-robots planning: [@hive_main](https://github.com/BEYOND-thelimit/hive_main)
+- Vision system: [@hive_vision](https://github.com/BEYOND-thelimit/hive_vision)
+- Each robot controller: [@hive_robot](https://github.com/BEYOND-thelimit/hive_robot)
+- Gazebo Simulation: [@hive_simulations](https://github.com/BEYOND-thelimit/hive_simulations)
 
 ### Team Members :
 *Dahyun Kim, *Geunwoo Kwon, *Jeongmok Kim, *Jiyun Yang, *Seunghak Bae, *Taehun Ryu \
