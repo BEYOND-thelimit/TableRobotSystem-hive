@@ -54,9 +54,11 @@ In addition, since the robot had to handle a light but large payload, it was sel
 > @Dahyun Kim \
 > @Taehun Ryu
 
-We utilize two sources of information to estimate the position of the robot. The first source is the data measured by sensors attached to the robot, and the second source is the information obtained from a camera located externally (on the ceiling). We perform EKF localization using the LiDAR, Encoder, and IMU sensors mounted on the robot. The camera employs YOLOv8 to determine the position of the robot.
+We utilize two sources of information to estimate the location of the robots. The first source is the location measured by sensors attached to the robot. In this process, We perform EKF localization using the LiDAR, Encoder, and IMU sensors mounted on the robot. Also, the ICP algorithm is used to get odometry information from the LiDAR sensor. The second is obtained from a camera located externally (on the ceiling). It uses YOLOv8 for object detection and tracking.
 
-We determine the final coordinates by performing linear interpolation using appropriate weights based on the two acquired sources of information.
+The final coordinates are determined by performing linear interpolation using appropriate weights based on the two acquired sources of information. The weights are expressed as a function of the reliability of the estimated robot position in the camera.
+
+The reason, why we use two pieces of information, is that the controller and the planner use different systems. The controller uses the world coordinate system, while the planner operates in the camera's frame of reference, so we needed an appropriate compromise.
 
 <img width="600" alt="image" src="https://github.com/BEYOND-thelimit/TableRobotSystem-hive/assets/73813854/569805f7-34b8-4c25-b772-32be5fc387ae">
 
