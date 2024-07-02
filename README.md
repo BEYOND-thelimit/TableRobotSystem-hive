@@ -58,7 +58,7 @@ We utilize two sources of information to estimate the location of the robots. Th
 
 The final coordinates are determined by performing linear interpolation using appropriate weights based on the two acquired sources of information. The weights are expressed as a function of the reliability of the estimated robot position in the camera.
 
-The reason, why we use two pieces of information, is that the controller and the planner use different systems. The controller uses the world coordinate system, while the planner operates in the camera's frame of reference, so we needed an appropriate compromise.
+The reason, why we use two pieces of information, is that the controller and the planner use different systems. The controller uses the world coordinate system, while the planner operates in the pixel coordinate system, so we needed an appropriate compromise.
 
 <img width="600" alt="image" src="https://github.com/BEYOND-thelimit/TableRobotSystem-hive/assets/73813854/569805f7-34b8-4c25-b772-32be5fc387ae">
 
