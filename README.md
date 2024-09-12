@@ -17,7 +17,7 @@ For more infromation, refers to the our [team introducement](https://github.com/
 Prof. Wansoo Kim
 
 ### Workshop paper
-양지윤, 권근우, 김다현, 김정목, 류태훈, 배승학, 김완수*.(2024).*"식당 홀의 완전 자동화를 위한 테이블 로봇 시스템"*. 제어로봇시스템학회 국내학술대회 논문집, 1135-1136. [[DBpia](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11909262)]
+양지윤, 권근우, 김다현, 김정목, 류태훈, 배승학, 김완수*.(2024).*"식당 홀의 완전 자동화를 위한 테이블 로봇 시스템"*. 제어로봇시스템학회 국내학술대회 논문집, 1135-1136.(**Undergraduate Students Paper Award**) [[DBpia](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11909262)]
 
 ---
 
