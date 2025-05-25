@@ -1,4 +1,5 @@
 # Table Robot System for fully automating restaurant service.
+[![Video](https://img.shields.io/badge/Video-YouTube-FF0000.svg?style=flat&labelColor=444444&color=FF0000)](https://youtu.be/ovZS6RqKD9c?si=XiOEwVNwwgVUNmgK)
 
 ### It contains only the project description
 The code implementation and usage guide can be found in the following repositories:
@@ -17,24 +18,7 @@ For more infromation, refers to the our [team introducement](https://github.com/
 Prof. Wansoo Kim
 
 ### Workshop paper
-양지윤, 권근우, 김다현, 김정목, 류태훈, 배승학, 김완수*.(2024).*"식당 홀의 완전 자동화를 위한 테이블 로봇 시스템"*. 제어로봇시스템학회 국내학술대회 논문집, 1135-1136.(**Undergraduate Students Paper Award**) [[DBpia](https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE11909262)]
-
----
-
-### ⚠️ License & Patent Notice
-
-> This repository is provided **for non-commercial academic and research use only**.
-> **Commercial use is strictly prohibited** without a separate license agreement.
-
-- This project includes technology that is **patent-pending in South Korea**
-  (Korean Patent Application No. **10-2025-0008102**)
-- If you use this code or its ideas in your research or projects,
-  **you must provide proper attribution** to the original author.
-- **Use of this software or its ideas for commercial purposes is not allowed.**
-
-For commercial licensing inquiries, please contact:
-**[xogns2079@gmail.com]**
-
+양지윤, 권근우, 김다현, 김정목, 류태훈, 배승학, 김완수*.(2024).*"식당 홀의 완전 자동화를 위한 테이블 로봇 시스템"*. 제어로봇시스템학회 국내학술대회 논문집, 1135-1136.(**Undergraduate Students Paper Award**) [[DBpia]()]
 
 ---
 
@@ -92,3 +76,19 @@ We used the D* Lite Algorithm for path planning in dynamic environments, and to 
 
 ## System architecture
 <img width="600" alt="image" src="https://github.com/BEYOND-thelimit/TableRobotSystem-hive/assets/73813854/acd450bb-b491-4a59-94d1-2160eff4696a">
+
+---
+
+### ⚠️ License & Patent Notice
+
+> This repository is provided **for non-commercial academic and research use only**.
+> **Commercial use is strictly prohibited** without a separate license agreement.
+
+- This project includes technology that is **patent-pending in South Korea**
+  (Korean Patent Application No. **10-2025-0008102**)
+- If you use this code or its ideas in your research or projects,
+  **you must provide proper attribution** to the original author.
+- **Use of this software or its ideas for commercial purposes is not allowed.**
+
+For commercial licensing inquiries, please contact:
+**[xogns2079@gmail.com]**
